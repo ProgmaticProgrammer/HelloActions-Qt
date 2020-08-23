@@ -24,7 +24,7 @@ jobs:
         qt_target: [desktop]
         # mingw用不了
         # qt_arch: [win64_msvc2017_64, win32_msvc2017, win32_mingw53,win32_mingw73]
-        qt_arch: [win64_msvc2017_64, win32_msvc2017]
+        qt_arch: [win64_msvc2017_64, win32_msvc2017, win64_mingw73]
         # 额外设置msvc_arch
         include:
           - qt_arch: win64_msvc2017_64
